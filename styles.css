@@ -60,6 +60,22 @@ footer { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 40px
 .article-showcase-fig img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; transition: transform .5s ease; }
 .article-showcase-fig:hover img { transform: scale(1.04); }
 .article-showcase-fig figcaption { position: absolute; bottom: 0; left: 0; right: 0; padding: 9px 14px; background: linear-gradient(to top, rgba(11,31,58,.75), transparent); color: #fff; font: 500 11px "DM Mono", monospace; letter-spacing: .05em; }
+
+/* In-paragraph content links — the rest of the file already uses a
+   border-bottom to signal "clickable" (.back-link, .guide-card a,
+   .article-aside a:hover), so this extends that same convention to
+   links inside article body text, which previously had no affordance
+   at all. Uses the existing #2676c9 accent (already used for h1/h2 em
+   and list bullets) rather than introducing a new color. */
+.article-content a {
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: 1px;
+}
+.article-content a:hover {
+  border-color: #2676c9;
+  color: #2676c9;
+}
+
 @media (max-width: 850px) { .site-header { height: 68px; }.menu-toggle { display: grid; gap: 5px; padding: 10px; border: 0; background: transparent; }.menu-toggle span { display: block; width: 21px; height: 1px; background: var(--ink); } nav { position: absolute; top: 68px; left: 0; right: 0; z-index: 10; display: none; padding: 12px 5vw 19px; flex-direction: column; gap: 4px; background: var(--paper); border-bottom: 1px solid var(--line); } nav.open { display: flex; } nav a { padding: 9px 0; }.hero { min-height: 0; grid-template-columns: 1fr; padding: 0; }.hero-copy { min-height: 510px; padding: 78px 7vw 50px; }.hero-visual { min-height: 410px; }.sun { width: 310px; }.lamp { left: 19%; transform: scale(.8); transform-origin: bottom left; }.plant { transform: scale(.78); transform-origin: bottom right; }.intro-band { justify-content: flex-start; padding-left: 20px; }.intro-band p:nth-of-type(2) { display: none; }.section { padding: 76px 7vw; }.topic-grid { grid-template-columns: 1fr 1fr; margin-top: 38px; }.topic-card { min-height: 240px; }.approach { grid-template-columns: 1fr; }.approach-art { min-height: 400px; }.approach-copy { padding: 75px 7vw; }.guide-grid { grid-template-columns: 1fr; margin-top: 38px; }.guide-card { min-height: 280px; } footer { padding: 35px 7vw 18px; } }
 @media (max-width: 850px) { .article-hero { padding: 55px 7vw 46px; }.article-feature { min-height: 320px; margin: 0; }.article-layout { grid-template-columns: 1fr; gap: 35px; margin-top: 52px; padding: 0 7vw; }.article-aside { position: static; padding-bottom: 22px; border-bottom: 1px solid var(--line); }.idea-grid { grid-template-columns: 1fr; }.article-showcase { grid-template-columns: 1fr; }.article-showcase-fig img { aspect-ratio: 4 / 3; } }
 @media (max-width: 480px) { h1 { font-size: 3.7rem; }.hero-copy { min-height: 480px; }.topic-grid { grid-template-columns: 1fr; }.topic-card { min-height: 210px; }.hero-visual { min-height: 330px; }.window { border-width: 8px; }.window i { border-width: 3px; }.approach-art { min-height: 340px; }.home-shape { transform: translateX(-50%) scale(.78); transform-origin: bottom center; } footer { grid-template-columns: 1fr; } footer > p { text-align: left; }.article-hero h1 { font-size: 3.45rem; }.article-dek { font-size: 16px; }.back-link { margin-bottom: 48px; }.article-content { font-size: 16px; }.article-lead { font-size: 22px; }.article-content blockquote { padding: 23px; font-size: 24px; } }
