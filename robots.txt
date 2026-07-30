@@ -1,4 +1,4 @@
-# robots.txt for NestWise
+# robots.txt for SmarteByTheHouse
 
 User-agent: *
 Allow: /
