@@ -1,0 +1,17 @@
+# SmarterByTheHouse
+
+> Practical, honest smart home advice for beginners — smart home devices, automation, and the Matter standard, tested and explained without sales-pitch hype or sponsored enthusiasm.
+
+SmarterByTheHouse publishes plain-language guides on smart home technology: what's worth setting up, what to buy first, and how standards like Matter are changing device compatibility. Content is written for beginners who want working recommendations, not marketing copy.
+
+## Guides
+
+- [Matter Smart Home: Latest News & Innovations](https://smarterbythehouse.donorororo.workers.dev/matter-smart-home): Explains the Matter smart home standard — what it is, why it matters for device interoperability and security, and how to get started with Matter-compatible devices.
+
+## About
+
+- [Homepage](https://smarterbythehouse.donorororo.workers.dev/): Site overview, approach, and topic areas (lighting, climate & energy, privacy & security, everyday routines).
+
+## Optional
+
+- Additional guides on smart plugs, smart home hubs, and device-specific reviews are planned; this file will be updated as they're published.
