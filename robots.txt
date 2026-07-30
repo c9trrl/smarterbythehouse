@@ -4,4 +4,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://smarterbythehouse.infinityfree.io/sitemap.xml
+Sitemap: https://smarterbythehouse.donorororo.workers.dev/sitemap.xml
