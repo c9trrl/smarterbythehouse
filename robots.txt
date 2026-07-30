@@ -1,0 +1,7 @@
+# robots.txt for NestWise
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://smarterbythehouse.infinityfree.io/sitemap.xml
