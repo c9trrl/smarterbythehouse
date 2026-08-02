@@ -6,11 +6,11 @@ SmarterByTheHouse publishes plain-language guides on smart home technology: what
 
 ## Guides
 
-- [Matter Smart Home: Latest News & Innovations](https://smarterbythehouse.donorororo.workers.dev/matter-smart-home): Explains the Matter smart home standard — what it is, why it matters for device interoperability and security, and how to get started with Matter-compatible devices.
+- [Matter Smart Home: Latest News & Innovations](https://smarterbythehouse.com/matter-smart-home): Explains the Matter smart home standard — what it is, why it matters for device interoperability and security, and how to get started with Matter-compatible devices.
 
 ## About
 
-- [Homepage](https://smarterbythehouse.donorororo.workers.dev/): Site overview, approach, and topic areas (lighting, climate & energy, privacy & security, everyday routines).
+- [Homepage](https://smarterbythehouse.com/): Site overview, approach, and topic areas (lighting, climate & energy, privacy & security, everyday routines).
 
 ## Optional
 
